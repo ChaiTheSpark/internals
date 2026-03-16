@@ -18,7 +18,7 @@ pipeline {
 
         stage('Run Python Script') {
             steps {
-                sh 'chaithu.py'
+                sh 'chmod +x chaithu.py'
             }
         }
 
